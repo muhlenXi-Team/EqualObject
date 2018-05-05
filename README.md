@@ -2,7 +2,7 @@
 
 *欢迎访问我的博客：[muhlenXi](http://www.muhlenxi.com)*
 
-> 好记性不如烂笔头之一
+> 好记性不如烂笔头之对象相同
 
 对于一个自定义的类（如 People 类），如果要判断两个对象相同，需要 遵循  `Equatable` 协议，并实现  `public static func ==(lhs: People, rhs: People) -> Bool`方法` , 示例代码如下:
 
@@ -50,5 +50,5 @@ class Person: NSObject {
 
 在上述中的两种情况下，当我们判断一个班级名单中是否有这个人时，就可以用 `contains` 方法来判断了。
 
-[完整的事例代码在这里](https://github.com/muhlenXi-Team/EqualObject)
+[完整的示例代码在这里](https://github.com/muhlenXi-Team/EqualObject)
 
