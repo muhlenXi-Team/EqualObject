@@ -50,5 +50,5 @@ class Person: NSObject {
 
 在上述中的两种情况下，当我们判断一个班级名单中是否有这个人时，就可以用 `contains` 方法来判断了。
 
-[完整的事例代码在这里]()
+[完整的事例代码在这里](https://github.com/muhlenXi-Team/EqualObject)
 
